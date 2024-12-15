@@ -1,0 +1,1 @@
+const l={tokenLimitShowFewer:"Show fewer chosen options",tokenLimitShowMore:"Show more chosen options"},r=e=>{const s=(e==null?void 0:e.value)||(e==null?void 0:e.label);return s?`Deselect ${s}`:"no label"};export{r as d,l as i};

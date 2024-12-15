@@ -1,0 +1,1 @@
+import{u as i}from"./use-container-query-60e26c9e.js";import"./index-2c36b58a.js";import{g as e}from"./breakpoints-dd8065be.js";function p(o){const n=o==null?void 0:o.join();return i(t=>e(t.contentBoxWidth,o),[n])}export{p as u};

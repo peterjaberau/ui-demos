@@ -1,0 +1,1 @@
+import{_ as s,b as r,d as o}from"./index-eb73e870.js";import{R as p}from"./index-2c36b58a.js";import{I as i}from"./internal-90218b53.js";function c(t){var{direction:a="vertical"}=t,e=s(t,["direction"]);const n=r("SpaceBetween",{props:{alignItems:e.alignItems,direction:a,size:e.size}});return p.createElement(i,Object.assign({direction:a},e,n))}o(c,"SpaceBetween");export{c as S};

@@ -1,0 +1,1 @@
+import{j as t}from"./index-2c36b58a.js";import{A as o}from"./index-7fc4adad.js";import{l as a}from"./labels-e7348a44.js";function s({tools:r}){return t.jsx(o,{ariaLabels:a,tools:r,navigationHide:!0,toolsOpen:!0,content:t.jsx("h1",{children:"Title"})})}export{s as A};

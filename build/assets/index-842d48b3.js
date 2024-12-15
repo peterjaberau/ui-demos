@@ -1,0 +1,1 @@
+import{r as e}from"./index-2c36b58a.js";import{d as a}from"./debounce-acf18bef.js";function s(c,t){const r=e.useRef();return r.current=c,e.useCallback(a((...u)=>{r.current&&r.current(...u)},t),[])}export{s as u};

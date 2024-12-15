@@ -1,0 +1,1 @@
+import{_ as s,b as t,d as m}from"./index-eb73e870.js";import{R as p}from"./index-2c36b58a.js";import{I as i}from"./internal-67a4bdad.js";function c(a){var{size:n="normal",variant:o="normal"}=a,e=s(a,["size","variant"]);const r=t("Icon",{props:{name:e.name,size:n,variant:o}});return p.createElement(i,Object.assign({size:n,variant:o},e,r))}m(c,"Icon");export{c as I};

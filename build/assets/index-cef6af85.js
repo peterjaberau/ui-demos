@@ -1,0 +1,1 @@
+import{r as e}from"./index-2c36b58a.js";import"./ResizeObserver-6fd345a6.js";import"./index-eb73e870.js";function H(t,p,n,{componentName:f,changeHandler:m,controlledProp:S}){const a=e.useState(t!==void 0)[0],[l,o]=e.useState(n),[s,r]=e.useState(!1),u=s?l:n,c=e.useCallback(i=>{o(i),r(!0)},[o,r]);return a?[t,d]:[u,c]}function d(){}export{H as u};

@@ -1,0 +1,1 @@
+import{r as o}from"./index-2c36b58a.js";const c=o.createContext({});function i(t,r,a){const e={};return a.forEach(n=>{e[n]=t[n]===void 0?r[n]:t[n]}),e}function u(t){const r=o.useContext(c);return i(t,r,["invalid","warning","controlId","ariaLabelledby","ariaDescribedby"])}export{c as F,u};

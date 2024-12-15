@@ -1,0 +1,1 @@
+const o={uploadButtonText:e=>e?"Choose files":"Choose file",dropzoneText:e=>e?"Drop files to upload":"Drop file to upload",removeFileAriaLabel:e=>`Remove file ${e+1}`,limitShowFewer:"Show fewer files",limitShowMore:"Show more files",errorIconAriaLabel:"Error",warningIconAriaLabel:"Warning"};export{o as i};

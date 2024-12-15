@@ -1,0 +1,1 @@
+import"./index-2c36b58a.js";import"./ResizeObserver-6fd345a6.js";import"./index-eb73e870.js";const a=["javascript:void(0)","javascript:void(0);","javascript:;"];function s(e,r){if(!r||a.indexOf(r.toLowerCase())!==-1)return;let t;try{t=new URL(r)}catch{return}if(t.protocol==="javascript:")throw new Error("A javascript: URL was blocked as a security precaution.")}export{s as c};

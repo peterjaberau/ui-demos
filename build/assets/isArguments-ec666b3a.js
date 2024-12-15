@@ -1,0 +1,1 @@
+import{a as s,i as t}from"./isObjectLike-2b7e5469.js";var n=s,o=t,i="[object Arguments]";function b(r){return o(r)&&n(r)==i}var c=b,e=c,u=t,a=Object.prototype,g=a.hasOwnProperty,m=a.propertyIsEnumerable,p=e(function(){return arguments}())?e:function(r){return u(r)&&g.call(r,"callee")&&!m.call(r,"callee")},j=p;export{j as i};

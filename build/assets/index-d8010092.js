@@ -1,0 +1,1 @@
+import{R as t}from"./index-2c36b58a.js";import{c as e}from"./index-eb73e870.js";const o={root:"awsui_root_xttbq_1rjuy_145"};function c(s){return t.createElement("span",Object.assign({},s,{className:e(o.root,s.className)}))}export{c as S};

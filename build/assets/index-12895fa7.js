@@ -1,0 +1,1 @@
+import{_ as o,b as p,d as t}from"./index-eb73e870.js";import{R as i}from"./index-2c36b58a.js";import{I as m}from"./internal-971a5a29.js";function l(n){var{size:r="normal",variant:a="normal"}=n,e=o(n,["size","variant"]);const s=p("Spinner",{props:{size:r,variant:a}});return i.createElement(m,Object.assign({size:r,variant:a},e,s))}t(l,"Spinner");export{l as S};

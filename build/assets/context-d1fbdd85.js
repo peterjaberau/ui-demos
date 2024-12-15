@@ -1,0 +1,1 @@
+import{R as c,r as a}from"./index-2c36b58a.js";const r=c.createContext({locale:null,format:(t,n,o,e)=>e});function l(){return a.useContext(r).locale}function m(t){const{format:n}=a.useContext(r);return(o,e,s)=>n("@cloudscape-design/components",t,o,e,s)}export{r as I,l as a,m as u};

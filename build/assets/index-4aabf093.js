@@ -1,0 +1,1 @@
+import{R as a}from"./index-2c36b58a.js";import{b as r,d as s}from"./index-eb73e870.js";import{I as p}from"./internal-e0b4c3d3.js";const e=a.forwardRef((t,n)=>{const o=r("DateInput",{props:{autoFocus:t.autoFocus,readOnly:t.readOnly}});return a.createElement(p,Object.assign({},t,o,{ref:n}))});s(e,"DateInput");const D=e;export{D};

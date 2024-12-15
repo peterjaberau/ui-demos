@@ -1,0 +1,1 @@
+import{p as r}from"./pad-left-zeros-7128f39a.js";function f(t,n="day"){const o=t.getFullYear(),e=r(`${t.getMonth()+1}`,2);if(n==="month")return`${o}-${e}`;const a=r(`${t.getDate()}`,2);return`${o}-${e}-${a}`}export{f};

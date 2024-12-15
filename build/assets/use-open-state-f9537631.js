@@ -1,0 +1,1 @@
+import{r as a}from"./index-2c36b58a.js";const u=({onOpen:t,onClose:o,defaultOpen:d=!1})=>{const[e,s]=a.useState(d),[i,p]=a.useState(!1),r=l=>{e||(s(!0),p(!!l),t==null||t())},n=()=>{e&&(s(!1),o==null||o())};return{isOpen:e,openDropdown:r,closeDropdown:n,toggleDropdown:()=>{e?n():r(!1)},openedWithKeyboard:i}};export{u};

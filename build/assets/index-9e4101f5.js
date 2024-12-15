@@ -1,0 +1,1 @@
+import{R as r}from"./index-2c36b58a.js";import"./ResizeObserver-6fd345a6.js";import{b as i}from"./attributes-9cbf7bc1.js";import"./index-eb73e870.js";function l(n,a){return e=>t=>i("appLayoutWidget")&&e?r.createElement(e,Object.assign({Skeleton:a},t)):r.createElement(n,Object.assign({},t))}export{l as c};

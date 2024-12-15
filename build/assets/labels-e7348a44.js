@@ -1,0 +1,1 @@
+const o={navigation:"Side navigation",navigationToggle:"Open navigation",navigationClose:"Close navigation",notifications:"Notifications",tools:"Tools",toolsToggle:"Open tools",toolsClose:"Close tools"},i=o;export{i as l};

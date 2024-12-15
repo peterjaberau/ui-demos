@@ -1,0 +1,1 @@
+import{R as i,j as o}from"./index-2c36b58a.js";import{A as r}from"./index-141988d6.js";function l(s){const[e,t]=i.useState(!0);return o.jsx(r,{...s,visible:e,dismissible:!0,onDismiss:()=>t(!1)})}function u(s){const e="https://s3.console.aws.amazon.com/s3/buckets/";return s.replace(/^s3:\/\//,e)}export{l as S,u};

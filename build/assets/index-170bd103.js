@@ -1,0 +1,1 @@
+import{R as o}from"./index-2c36b58a.js";import{b as r,d as s}from"./index-eb73e870.js";import{I as l}from"./internal-292a587d.js";const a=o.forwardRef((e,t)=>{const n=r("Toggle",{props:{readOnly:e.readOnly}});return o.createElement(l,Object.assign({},e,n,{ref:t,__injectAnalyticsComponentMetadata:!0}))});s(a,"Toggle");const c=a;export{c as T};

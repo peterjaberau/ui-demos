@@ -1,0 +1,1 @@
+import{_ as n,b as p,d as c}from"./index-eb73e870.js";import{R as o}from"./index-2c36b58a.js";import{I as m}from"./internal-76dde1ac.js";const a=o.forwardRef((r,t)=>{var e=n(r,[]);const s=p("Checkbox",{props:{readOnly:e.readOnly}});return o.createElement(m,Object.assign({},e,s,{ref:t,__injectAnalyticsComponentMetadata:!0}))});c(a,"Checkbox");const l=a;export{l as C};

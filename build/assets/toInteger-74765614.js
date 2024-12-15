@@ -1,0 +1,1 @@
+import{_ as a}from"./_baseToString-3b9773c0.js";import{t as o}from"./toFinite-7587e969.js";var i=a;function n(t){return t==null?"":i(t)}var p=n,f=9007199254740991,u=Math.floor;function v(t,r){var e="";if(!t||r<1||r>f)return e;do r%2&&(e+=t),r=u(r/2),r&&(t+=t);while(r);return e}var S=v,_=o;function s(t){var r=_(t),e=r%1;return r===r?e?r-e:r:0}var b=s;export{S as _,p as a,b as t};

@@ -1,0 +1,1 @@
+import"./index-2c36b58a.js";import"./ResizeObserver-6fd345a6.js";import{b as o}from"./attributes-9cbf7bc1.js";import"./index-eb73e870.js";const e=()=>o("appLayoutWidget")||o("appLayoutToolbar");export{e as u};

@@ -1,0 +1,1 @@
+var p;(function(a){a[a.pageUp=33]="pageUp",a[a.pageDown=34]="pageDown",a[a.end=35]="end",a[a.home=36]="home",a[a.backspace=8]="backspace",a[a.space=32]="space",a[a.down=40]="down",a[a.left=37]="left",a[a.right=39]="right",a[a.up=38]="up",a[a.escape=27]="escape",a[a.enter=13]="enter",a[a.tab=9]="tab"})(p||(p={}));export{p as K};

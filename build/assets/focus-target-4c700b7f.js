@@ -1,0 +1,1 @@
+import{j as t}from"./index-2c36b58a.js";function e(){return t.jsxs("p",{children:["Click here to focus so we can tab to the content below"," ",t.jsx("button",{type:"button",id:"focus-target",children:"focus"})]})}export{e as F};

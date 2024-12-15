@@ -1,0 +1,1 @@
+import{j as e}from"./index-2c36b58a.js";function s(){return e.jsxs(e.Fragment,{children:[e.jsx("h1",{children:"This page contains undefined strings"}),e.jsx("button",{"aria-label":"undefined button"}),e.jsx("div",{className:"undefined"})]})}export{s as default};

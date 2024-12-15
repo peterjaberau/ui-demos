@@ -1,0 +1,1 @@
+import{r as i}from"./index-2c36b58a.js";const f=(r,t,a,n,s,e)=>{const c={},l=i.useCallback(()=>{var o;(o=s.current)===null||o===void 0||o.focus(),e("")},[s,e]);return(r==="search"||r==="visualSearch")&&(c.__leftIcon="search",!t&&!a&&n&&(c.__rightIcon="close",c.__onRightIconClick=l)),c},h=(r=!1)=>r===!0?"on":r||"off";export{h as c,f as u};
