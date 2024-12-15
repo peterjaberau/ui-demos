@@ -1,0 +1,39 @@
+/*
+ Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+ SPDX-License-Identifier: Apache-2.0
+*/
+.layout-grid {
+  display: grid;
+  grid-template-columns: 9fr 3fr;
+  gap: 16px;
+}
+
+.layout-absolute {
+  /* used in test pages */
+}
+
+.layout-absolute > div:nth-child(1) {
+  width: calc(100% - 300px);
+}
+.layout-absolute > div:nth-child(2) {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 300px;
+  height: 100%;
+}
+
+.palette {
+  padding: 16px;
+  border-radius: 4px;
+  background-color: lightgray;
+  overflow: auto;
+}
+
+.demo-item-with-border {
+  box-sizing: border-box;
+  border: dashed 2px darkgray;
+  border-radius: 4px;
+  padding: 8px;
+}

@@ -1,0 +1,72 @@
+// Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+// SPDX-License-Identifier: Apache-2.0
+import { useContext } from 'react';
+
+import { Density, Mode } from '@cloudscape-design/global-styles';
+
+import { ALWAYS_VISUAL_REFRESH, THEME } from '@/cloudscape/internals/components/environment';
+import SpaceBetween from '@cloudscape-design/components/space-between';
+
+import AppContext from '@/cloudscape/components/app/app-context.tsx';
+
+export default function ThemeSwitcher() {
+  const { mode, urlParams, setUrlParams, setMode } = useContext(AppContext);
+
+  const vrSwitchProps: React.InputHTMLAttributes<HTMLInputElement> = {
+    id: 'visual-refresh-toggle',
+    type: 'checkbox',
+  };
+
+  if (ALWAYS_VISUAL_REFRESH) {
+    vrSwitchProps.checked = true;
+    vrSwitchProps.readOnly = true;
+  } else {
+    vrSwitchProps.checked = urlParams.visualRefresh;
+    vrSwitchProps.onChange = event => {
+      setUrlParams({ visualRefresh: event.target.checked });
+      window.location.reload();
+    };
+  }
+
+  return (
+    <SpaceBetween direction="horizontal" size="xs">
+      <label>
+        Theme
+        <select defaultValue={THEME}>
+          <option value={THEME}>{THEME}</option>
+        </select>
+      </label>
+      <label>
+        <input {...vrSwitchProps} />
+        Visual refresh
+      </label>
+      <label>
+        <input
+          id="mode-toggle"
+          type="checkbox"
+          checked={mode === 'dark'}
+          onChange={event => setMode(event.target.checked ? Mode.Dark : Mode.Light)}
+        />
+        Dark mode
+      </label>
+      <label>
+        <input
+          id="density-toggle"
+          type="checkbox"
+          checked={urlParams.density === 'compact'}
+          onChange={event => setUrlParams({ density: event.target.checked ? Density.Compact : Density.Comfortable })}
+        />
+        Compact mode
+      </label>
+      <label>
+        <input
+          id="disabled-motion-toggle"
+          type="checkbox"
+          checked={urlParams.motionDisabled}
+          onChange={event => setUrlParams({ motionDisabled: event.target.checked })}
+        />
+        Disable motion
+      </label>
+    </SpaceBetween>
+  );
+}
