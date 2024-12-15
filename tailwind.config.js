@@ -1,11 +1,14 @@
-/** @type {import('tailwindcss').Config} */
+// tailwind.config.js
+import tailwindcssAnimate from 'tailwindcss-animate';
+import typography from '@tailwindcss/typography';
+
 export default {
   darkMode: ["class"],
-  content: ["./src/**/*.{html,js,ts}"],
+  content: ["./src/**/*.{html,js,ts,jsx,tsx}"],
   corePlugins: { preflight: false },
   prefix: "",
   theme: {
     extend: {},
   },
-  plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],
+  plugins: [tailwindcssAnimate, typography],
 }
